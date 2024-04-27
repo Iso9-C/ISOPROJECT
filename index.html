@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="project.css">
+    <title>Kitap Seç İsö</title>
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h3>Kategori seçiniz.</h3>
+        </header>
+        <nav>
+            <div class="container">
+                <h4 onclick="history()">Tarih Kitapları</h4>
+                <h4 onclick="social()">Sosyal Kitaplar</h4>
+                <h4 onclick="psychology()">Psikoloji Kitapları</h4>
+                <h4 onclick="adventure()">Macera Kitapları</h4>
+                <h4 onclick="scifi()">Bilim Kurgu Kitapları</h4>
+                <h4 onclick="fantastic()">Fantastik Kitaplar</h4>    
+            </div>
+
+        </nav>
+        <section>
+            <h2>İlk kitabınız mı? Aşağıdakilerden biriyle başlayın!</h2>
+            <div class="container2">
+            <div class="card" style="width: 18rem;">
+                <img src="kucukprens.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Küçük Prens</h5>
+                  <p class="card-text">Küçük Prens, Fransız yazar ve pilot Antoine de Saint-Exupéry tarafından yazılan ve 1943'te yayımlanan masalsı bir kitaptır. Dünyanın en çok satan ve okunan kitaplarından biridir. Eserde, bir çocuğun gözünden büyüklerin dünyası anlatılır.</p>
+                  
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="martı.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Martı</h5>
+                  <p class="card-text">Martı, ABDli yazar Richard Bach'ın yazdığı, ilk kez 1970'te yayınlanan uzun öykü ya da roman. Fabl türündedir. Eserde bir martının uçmayı, özgürlüğü ve kendini gerçekleştirmeyi öğrenmesi anlatılır.</p>
+                  
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <img src="sekerportakali.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Şeker Portakalı</h5>
+                  <p class="card-text">Şeker Portakalı, Brezilyalı yazar José Mauro de Vasconcelos'un tüm dünyayı etkisi altına almayı başaran 1968 tarihli dram ve çocukluk romanıdır.</p>
+                  
+                </div>
+              </div>
+            </div>
+        </section>
+        <footer>
+            <h6>Bu web sitesi teknofest için kurulmuştur.</h6>
+        </footer>
+
+    </div>
+
+    
+    <script>
+        function history(){
+            open('tarih.html','_blank',)
+        }
+        function social(){
+            open('sosyal.html','_blank',)
+        }
+        function psychology(){
+            open('psikoloji.html','_blank',)
+        }
+        function adventure(){
+            open('macera.html','_blank',)
+        }
+        function scifi(){
+            open('bilimkurgu.html','_blank',)
+        }
+        function fantastic(){
+            open('fantastik.html','_blank',)
+        }
+
+    </script>
+    
+
+</body>
+</html>
